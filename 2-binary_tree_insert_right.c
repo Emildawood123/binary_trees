@@ -15,18 +15,18 @@ if (node == NULL || parent == NULL)
 {
 return (NULL);
 }
-if (l == NULL)
-{
 node->right = NULL;
+node->n = value;
+node->parent = parent;
+if (l)
+{
+node->left = l;
+parent->left = node;
+l->parent = node;
 }
 else
 {
-l->parent = node;
-node->right = l;
+parent->left = node;
 }
-node->parent = parent;
-node->n = value;
-parent->right = node;
-node->left = NULL;
 return (node);
 }
