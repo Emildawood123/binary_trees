@@ -40,4 +40,5 @@ int binary_tree_is_full(const binary_tree_t *tree);
 void helper3(const binary_tree_t *tree, int *flag);
 int binary_tree_is_perfect(const binary_tree_t *tree);
 void helper4(const binary_tree_t *tree, int *flag);
+int binary_tree_balance(const binary_tree_t *tree);
 #endif
