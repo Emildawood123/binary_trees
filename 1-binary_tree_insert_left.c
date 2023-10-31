@@ -5,14 +5,15 @@
  * binary_tree_insert_left - that to add new right item
  * @parent: parent
  * @value: value
- * Return :new node
+ * Return: new node
 */
-binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value){
+binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value)
+{
 binary_tree_t *node = malloc(sizeof(binary_tree_t));
 binary_tree_t *l = parent->left;
 if (node == NULL)
 {
-    return (NULL);
+return (NULL);
 }
 if (l == NULL)
 {
