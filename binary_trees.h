@@ -41,4 +41,5 @@ void helper3(const binary_tree_t *tree, int *flag);
 int binary_tree_is_perfect(const binary_tree_t *tree);
 void helper4(const binary_tree_t *tree, int *flag);
 int binary_tree_balance(const binary_tree_t *tree);
+void binary_tree_levelorder(const binary_tree_t *tree, void (*func)(int));
 #endif
