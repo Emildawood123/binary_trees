@@ -32,4 +32,6 @@ size_t binary_tree_size(const binary_tree_t *tree);
 void binary_tree_delete(binary_tree_t *tree);
 size_t binary_tree_leaves(const binary_tree_t *tree);
 size_t helper(const binary_tree_t *tree);
+size_t binary_tree_nodes(const binary_tree_t *tree);
+size_t helper2(const binary_tree_t *tree);
 #endif
