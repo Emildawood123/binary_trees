@@ -10,6 +10,10 @@
 int binary_tree_is_full(const binary_tree_t *tree)
 {
 int f = 1;
+if (tree == NULL)
+{
+return (0);
+}
 helper3(tree, &f);
 return (f);
 }
