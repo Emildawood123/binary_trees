@@ -27,6 +27,7 @@ l->parent = node;
 else
 {
 parent->right = node;
+node->right = NULL
 }
 return (node);
 }
