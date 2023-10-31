@@ -15,7 +15,7 @@ if (node == NULL || parent == NULL)
 {
 return (NULL);
 }
-node->right = NULL;
+node->left = NULL;
 node->n = value;
 node->parent = parent;
 if (l)
