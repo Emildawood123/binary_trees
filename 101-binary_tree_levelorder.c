@@ -18,13 +18,19 @@ if (tree->parent == NULL)
 {
 func(tree->n);
 }
+if (tree->left)
+{
 func(tree->left->n);
+}
+if (tree->right)
+{
 func(tree->right->n);
-if (tree->left->left != NULL)
+}
+if (tree->left->left != NULL || tree->left->right != NULL)
 {
 binary_tree_levelorder(tree->left, func);
 }
-if (tree->right->right != NULL)
+if (tree->right->right != NULL || tree->right->left != NULL)
 {
 binary_tree_levelorder(tree->right, func);
 }
