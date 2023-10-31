@@ -38,4 +38,6 @@ binary_tree_t *binary_tree_sibling(binary_tree_t *node);
 binary_tree_t *binary_tree_uncle(binary_tree_t *node);
 int binary_tree_is_full(const binary_tree_t *tree);
 void helper3(const binary_tree_t *tree, int *flag);
+int binary_tree_is_perfect(const binary_tree_t *tree);
+void helper4(const binary_tree_t *tree, int *flag);
 #endif
