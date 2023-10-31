@@ -1,0 +1,7 @@
+{
+    "C_Cpp.errorSquiggles": "disabled",
+    "files.associations": {
+        "binary_trees.h": "c",
+        "*.": "c"
+    }
+}
