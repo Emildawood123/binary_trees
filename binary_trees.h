@@ -36,4 +36,6 @@ size_t binary_tree_nodes(const binary_tree_t *tree);
 size_t helper2(const binary_tree_t *tree);
 binary_tree_t *binary_tree_sibling(binary_tree_t *node);
 binary_tree_t *binary_tree_uncle(binary_tree_t *node);
+int binary_tree_is_full(const binary_tree_t *tree);
+void helper3(const binary_tree_t *tree, int *flag);
 #endif
