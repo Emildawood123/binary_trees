@@ -13,7 +13,7 @@ if (!tree)
 {
 return;
 }
-if (!func == NULL)
+if (func == NULL)
 {
 return;
 }
