@@ -38,5 +38,5 @@ else
 return (node->parent->parent->left);
 }
 }
-return (node);
+return (NULL);
 }
