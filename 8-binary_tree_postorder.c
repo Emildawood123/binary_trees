@@ -13,6 +13,10 @@ if (!tree)
 {
 return;
 }
+if (!func == NULL)
+{
+return;
+}
 binary_tree_postorder(tree->left, func);
 binary_tree_postorder(tree->right, func);
 func(tree->n);
