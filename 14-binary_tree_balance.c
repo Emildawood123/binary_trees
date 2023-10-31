@@ -25,5 +25,9 @@ if ((!tree->left) && (tree->right))
 {
 return (-1);
 }
+if ((tree->left) && (!tree->right))
+{
+return (-1);
+}
 return (0);
 }
