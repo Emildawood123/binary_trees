@@ -18,6 +18,7 @@ return (NULL);
 node->left = NULL;
 node->n = value;
 node->parent = parent;
+node->right = NULL;
 if (l)
 {
 node->right = l;
@@ -27,7 +28,6 @@ l->parent = node;
 else
 {
 parent->right = node;
-node->right = NULL;
 }
 return (node);
 }
