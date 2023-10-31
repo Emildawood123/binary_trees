@@ -20,13 +20,13 @@ node->n = value;
 node->parent = parent;
 if (l)
 {
-node->left = l;
-parent->left = node;
+node->right = l;
+parent->right = node;
 l->parent = node;
 }
 else
 {
-parent->left = node;
+parent->right = node;
 }
 return (node);
 }
