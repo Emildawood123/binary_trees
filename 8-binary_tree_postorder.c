@@ -13,7 +13,7 @@ if (!tree)
 {
 return;
 }
-binary_tree_inorder(tree->left, func);
-binary_tree_inorder(tree->right, func);
+binary_tree_postorder(tree->left, func);
+binary_tree_postorder(tree->right, func);
 func(tree->n);
 }
